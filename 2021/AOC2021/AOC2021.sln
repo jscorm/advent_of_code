@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "AOC2021", "AOC2021\AOC2021.fsproj", "{69F735D1-1E8C-4942-BF10-8068BBB9228E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D1", "D1", "{E90A6DAB-D6B1-494E-9CCB-133075E9D319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F735D1-1E8C-4942-BF10-8068BBB9228E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F735D1-1E8C-4942-BF10-8068BBB9228E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F735D1-1E8C-4942-BF10-8068BBB9228E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F735D1-1E8C-4942-BF10-8068BBB9228E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69F735D1-1E8C-4942-BF10-8068BBB9228E} = {E90A6DAB-D6B1-494E-9CCB-133075E9D319}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0BB81ED-EAF8-45AB-8979-C4C8CFC0A430}
+	EndGlobalSection
+EndGlobal

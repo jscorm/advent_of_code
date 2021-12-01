@@ -1,6 +1,4 @@
-﻿open System
-
-printfn "Advent of Code 2020 - Day 1\n"
+﻿printfn "Advent of Code 2020 - Day 1"
 
 //Part 1
 let rec fy sum num nums =
@@ -19,7 +17,7 @@ let rec fx sum nums =
           | Some(x) -> Some(head, x)
           | None -> fx sum tail
 
-printfn "Part 1\n"
+printfn "\nPart 1"
 let nums = System.IO.File.ReadLines("../../../input.txt") |> Seq.map int
 let (a, b) = (fx 2020 (List.ofSeq nums)).Value
 let product = a * b
@@ -48,8 +46,8 @@ let rec gx sum count nums =
           | Some(x) -> Some(x)
           | None -> gx sum count tail
 
-printfn "Part 2\n"
-let answers = (gx 2020 3 (List.ofSeq nums)).Value
+printfn "\nPart 2"
+let answers = (gx 2020 3 (List.ofSeq nums)).Value //Part 1 can also be solved with (gx 2020 2 (List.ofSeq nums))
 let product2 = List.fold (*) 1 answers
 printfn $"The three numbers are {answers} and their product is {product2}.\n"
      
