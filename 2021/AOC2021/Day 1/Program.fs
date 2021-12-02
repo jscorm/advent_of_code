@@ -10,10 +10,10 @@ let answer1 = Seq.pairwise nums
 printfn($"The depth measurement increases {answer1} times.")
 
 //Part 2
-printfn "\nPart 1"
+printfn "\nPart 2"
 let sumArray array = Array.fold (+) 0 array
-let answer2 = Seq.windowed 3 nums 
+let answer2 = Seq.windowed 3 nums //Part one can also be solved by passing 1 instead of 3
            |> Seq.pairwise 
            |> Seq.where (fun (a, b) -> sumArray b > sumArray a)
            |> Seq.length
-printfn($"The sum of measurements in this sliding window {answer2} times.")
+printfn($"The sum of measurements in the sliding windows increases {answer2} times.")
